@@ -14,10 +14,12 @@ namespace website.Controllers
         public IActionResult index()
         {
             Person person = new Person();
-            person.Name="Santiago";
-            person.Lastname="Mendoza";
-            person.Age=17;
-            person.Direction="Cant. Pasaquinita";
+            person.name="Santiago";
+            person.lastname="Mendoza";
+            person.age=17;
+            person.direction="Cant. Pasaquinita";
+            person.email="Melsmendoza17@gmail.com";
+            person.phonenumber=7896-4521;
 
             return View(person);
         }

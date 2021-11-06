@@ -4,9 +4,11 @@ namespace website.Models
 {
     public class Person
     {
-        public string Name;
-        public string Lastname;
-        public int Age;
-        public string Direction;
+        public string name;
+        public string lastname;
+        public int age;
+        public string direction;
+        public string email;
+        public int phonenumber;
     }
 }
