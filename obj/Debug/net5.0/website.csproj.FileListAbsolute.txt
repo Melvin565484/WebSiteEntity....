@@ -40,3 +40,4 @@ C:\Users\MELS\paginasweb\website\obj\Debug\net5.0\website.genruntimeconfig.cache
 C:\Users\MELS\paginasweb\website\obj\Debug\net5.0\website.csproj.CopyComplete
 C:\Users\MELS\paginasweb\website\obj\Debug\net5.0\Razor\Views\Home\Personal.cshtml.g.cs
 C:\Users\MELS\paginasweb\website\obj\Debug\net5.0\Razor\Views\Person\index.cshtml.g.cs
+C:\Users\MELS\paginasweb\website\obj\Debug\net5.0\Razor\Views\Shared\_Library.cshtml.g.cs
