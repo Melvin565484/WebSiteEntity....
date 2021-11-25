@@ -52,48 +52,25 @@
                                 Dashboard
                             </a>
                             <div class="sb-sidenav-menu-heading">Library</div>
-                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
-                                <div class="sb-nav-link-icon"><i class="fas fa-book-open mdb-gallery-view-icon"></i></div>
-                                Books
-                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                            </a>
+                           
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="#">New book</a>
-                                    <a class="nav-link" href="#">New list</a>
+                                   
                                 </nav>
                             </div>
-                            <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
-                                        Authentication
-                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                    </a>
-                                    <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
-                                        <nav class="sb-sidenav-menu-nested nav">
-                                            <a class="nav-link" href="login.html">Login</a>
-                                            <a class="nav-link" href="register.html">Register</a>
-                                            <a class="nav-link" href="password.html">Forgot Password</a>
-                                        </nav>
-                                    </div>
-                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
-                                        Error
-                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                    </a>
-                                    <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
-                                        <nav class="sb-sidenav-menu-nested nav">
-                                            <a class="nav-link" href="401.html">401 Page</a>
-                                            <a class="nav-link" href="404.html">404 Page</a>
-                                            <a class="nav-link" href="500.html">500 Page</a>
-                                        </nav>
-                                    </div>
-                                </nav>
-                            </div>
-                            <a class="nav-link" asp-controller="Person" asp-action="Index">
+                            
+                            <a class="nav-link" asp-controller="Author" asp-action="index">
                                 <div class="sb-nav-link-icon"><i class="fas fa-pen-nib"></i></div>
-                                Authors
+                                <span>Authors</span>
                             </a>
-                           
+                            <a class="nav-link" asp-controller="Book" asp-action="Index">
+                                <div class="sb-nav-link-icon"><i class="fas fa-pen-nib"></i></div>
+                                <span>Books</span>
+                            </a>
+                           <a class="nav-link" asp-controller="Instructor" asp-action="Index">
+                                <div class="sb-nav-link-icon"><i class="fas fa-pen-nib"></i></div>
+                                <span>Instructor</span>
+                            </a>
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">

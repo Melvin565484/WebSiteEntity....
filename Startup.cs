@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
 
 namespace website
 {
@@ -24,6 +25,10 @@ namespace website
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+                //Contexto de la base de datos para MYSql
+            services.AddDbContext<LibraryContext>(options =>
+                    options.UseMySQL(Configuration.GetConnectionString("LibraryContext")));
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
